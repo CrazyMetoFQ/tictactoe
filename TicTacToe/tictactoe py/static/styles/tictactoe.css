@@ -1,0 +1,34 @@
+:root{
+  --n: 1
+}
+
+html{
+  background-color: gray;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  background-color: black;
+  gap: .5vw;
+  width: fit-content;
+}
+
+.tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+  padding: calc(7vh);
+  /* border: 1px solid black; */
+}
+
+.tile>img{
+  height: 10vh;
+  width: 10vh;
+}

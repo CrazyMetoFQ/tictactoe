@@ -1,0 +1,51 @@
+html{
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#Main-Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30vh;
+    padding: 10vw;
+    border-radius: 5vh;
+    background-color: antiquewhite;
+    
+}
+
+#play-button{
+    width: 10vw;
+    text-align: center;
+    font-size: x-large;
+    background-color: rgb(217, 100, 46);
+    padding: 5vw;
+    border: 5px;
+    border-radius: 5vw;
+    transition-property: all;
+    transition-duration: .4s;
+
+}
+
+#play-button:hover{
+    background-color: darkslateblue;
+    color: azure;
+}
+
+input[id="size"]{
+    width: 8vw;
+    padding: 2vh;
+    background-color: lavender;
+    margin-top: 1vh;
+    border: 1px;
+    border-radius: 3vh;
+    text-align: center;
+    font-size: large;
+    font-weight: normal;
+}
